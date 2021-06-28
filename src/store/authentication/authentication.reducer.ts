@@ -8,6 +8,7 @@ const INIT_STATE: AuthenticationStore = {
   loading: false,
   user: null,
   error: '',
+  token: '',
 };
 
 const authenticationReducer = createReducer(INIT_STATE)
